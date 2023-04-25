@@ -1,0 +1,78 @@
+
+body{
+    background-color: #d9d9d9;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    place-items: center;
+    overflow: hidden;
+}
+.container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+    background: #ecf0f3;
+    box-shadow: 4px 4px 20px #cbced1, 4px 4px 20px white;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .title {
+    margin-top: auto;
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: #1DA1F2;
+    letter-spacing: 1px;
+  }
+  .form-input{
+    text-align: center;
+    margin-top: 10px;
+  }
+
+.card{
+    position: relative;
+    padding: 32px;
+    text-align: center;
+
+}
+input {
+    text-align: center;
+    background: #ecf0f3;
+    padding: 10px;
+    padding-left: 20px;
+    height: 10px;
+    font-size: 14px;
+    border-radius: 50px;
+    box-shadow: inset 2px 2px 2px #cbced1, inset 2px 2px 2px white;
+  }
+  .button {
+    text-align: left;
+    color: white;
+    margin-top: 10px;
+    background: #1DA1F2;
+    height: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 600;
+    box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+    transition: 0.2s;
+  }
+  
+  .button:hover {
+    color: black;
+  }
+  a{
+      color: #1DA1F2;
+      cursor:pointer;
+  }
+  a:hover{
+      color:rebeccapurple;
+  }
+
+
+/*/ hidden form /*/
+.form-hidden {
+  display: none;
+}

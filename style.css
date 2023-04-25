@@ -1,0 +1,82 @@
+
+body{
+    background-color: #24252A;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    place-items: center;
+    overflow: hidden;
+}
+.container {
+    position: relative;
+    width: 300px;
+    height: 500px;
+    border-radius: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+    background: #7d7250;
+    box-shadow: 4px 4px 20px #cbced1, 4px 4px 20px white;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 100px;
+  }
+  .title {
+    margin-top: auto;
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: #1DA1F2;
+    letter-spacing: 1px;
+  }
+  .form-input{
+    text-align: center;
+    margin-top: 10px;
+  }
+
+.card{
+    position: relative;
+    padding: 32px;
+    text-align: center;
+
+}
+input {
+    width:100%
+    text-align: center;
+    background: #ecf0f3;
+    padding: 10px;
+    padding-left: 20px;
+    height: 10px;
+    font-size: 14px;
+    border-radius: 50px;
+    box-shadow: inset 2px 2px 2px #cbced1, inset 2px 2px 2px white;
+  }
+
+  .button {
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    background: #1DA1F2;
+    height: 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 600;
+    box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+    transition: 0.2s;
+  }
+  
+  .button:hover {
+    color: black;
+  }
+  a{
+      padding-top: 10px;
+      color: #1DA1F2;
+      cursor:pointer;
+  }
+  a:hover{
+      color:rebeccapurple;
+  }
+
+
+/*/ hidden form /*/
+.form-hidden {
+  display: none;
+}
